@@ -4,6 +4,7 @@
   "version": "2.7.5",
   "description": "A GitHub Action that implements smart caching for rust/cargo projects with sensible defaults.",
   "keywords": [
+    "ubicloud",
     "actions",
     "rust",
     "cache"
@@ -12,18 +13,18 @@
   "license": "LGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Swatinem/rust-cache.git"
+    "url": "git+https://github.com/ubicloud/rust-cache.git"
   },
   "bugs": {
-    "url": "https://github.com/Swatinem/rust-cache/issues"
+    "url": "https://github.com/ubicloud/rust-cache/issues"
   },
   "funding": {
     "url": "https://github.com/sponsors/Swatinem"
   },
-  "homepage": "https://github.com/Swatinem/rust-cache#readme",
+  "homepage": "https://github.com/ubicloud/rust-cache#readme",
   "dependencies": {
     "@actions/buildjet-cache": "npm:github-actions.cache-buildjet@0.2.0",
-    "@actions/cache": "^3.2.4",
+    "@actions/cache": "npm:@ubicloud/cache@3.3.102",
     "@actions/core": "^1.11.1",
     "@actions/exec": "^1.1.1",
     "@actions/glob": "^0.5.0",
